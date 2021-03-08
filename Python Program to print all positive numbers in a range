@@ -1,0 +1,10 @@
+lst1=eval(input("Enter list:"))
+l=len(lst1)
+lst2=[]
+for i in range (0, l):
+    if lst1[i]>0:
+        lst2.append(lst1[i])
+    else:
+        continue
+
+print(lst2)
